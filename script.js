@@ -12,6 +12,7 @@ function validation() {
     if(fnameInput === "") {
         document.getElementById("error1").style.visibility = "visible";
         document.getElementById("small-1").style.visibility = "visible";
+        document.getElementById("small-1").style.Color = "#ff0000";
         document.getElementById("fname").style.border = "1px solid hsl(0, 100%, 74%) "
     } else {
         document.getElementById("error1").style.display = "none";
@@ -23,6 +24,7 @@ function validation() {
     if(lnameInput === "") {
         document.getElementById("error2").style.visibility = "visible";
         document.getElementById("small-2").style.visibility ="visible";
+         document.getElementById("small-2").style.Color = "#ff0000";
         document.getElementById("lname").style.border = "1px solid hsl(0, 100%, 74%) "
     } else {
         document.getElementById("error2").style.display = "inline-block";
